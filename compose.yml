@@ -1,0 +1,7 @@
+services:
+  database:
+    container_name: manually_java_connection_database
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: mydb
